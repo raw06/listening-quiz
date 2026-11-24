@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bài 1 · What name?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap" id="app"></main>
+
+  <script>
+    window.QUIZ = {
+      badge: "Bài 1 · Task 2",
+      title: "What name does each person use?",
+      instruction: "Listen again. Circle the correct answer.",
+      audio: "audio/track7.mp3",
+      layout: "row",
+      questions: [
+        { options: ["Damien", "David"], answer: 1 },
+        { options: ["Jackson", "Johnson"], answer: 0 },
+        { options: ["Rob", "Bob"], answer: 1 },
+        { options: ["Michelle", "Marcia"], answer: 0 },
+        { options: ["Smith", "Schmidt"], answer: 0 },
+        { options: ["James", "John"], answer: 1 },
+        { options: ["Abrams", "Abraham"], answer: 0 },
+        { options: ["Steinway", "Steinberg"], answer: 1 }
+      ]
+    };
+  </script>
+  <script src="quiz.js"></script>
+</body>
+</html>

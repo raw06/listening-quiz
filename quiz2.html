@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bài 2 · Messages for Cindy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap" id="app"></main>
+
+  <script>
+    window.QUIZ = {
+      badge: "Bài 2 · Task 2",
+      title: "Messages for Cindy",
+      instruction: "Listen again. Circle the correct answer.",
+      audio: "audio/track4.mp3",
+      questions: [
+        { text: "Bob knows Cindy from ___.", options: ["work", "school", "home"], answer: 1 },
+        { text: "___ is the person who answers the phone.", options: ["Tom", "Cindy", "Nancy"], answer: 0 },
+        { text: "Cindy can't take the call because she is ___.", options: ["busy", "asleep", "not home"], answer: 2 },
+        { text: "The caller is Cindy's ___.", options: ["boss", "teacher", "friend"], answer: 1 }
+      ]
+    };
+  </script>
+  <script src="quiz.js"></script>
+</body>
+</html>
